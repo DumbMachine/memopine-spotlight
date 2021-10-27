@@ -1,0 +1,25 @@
+{
+	"name": "IntegrationSettingSqlite",
+	"columns": {
+		"id": {
+			"primary": true,
+			"type": "int",
+			"generated": true
+		},
+		"authenticated": {
+			"type": "boolean"
+		},
+		"serviceName": {
+			"type": "text"
+		},
+		"helperText": {
+			"type": "text"
+		},
+		"authenticateUrl": {
+			"type": "text"
+		},
+		"deAuthenticateUrl": {
+			"type": "text"
+		}
+	}
+}

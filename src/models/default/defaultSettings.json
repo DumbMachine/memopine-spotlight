@@ -1,0 +1,37 @@
+[
+	{
+		"authenticated": false,
+		"serviceName": "zoom",
+		"helperText": "Find more about this integration at <link/to/docs/zoom>",
+		"authenticateUrl": "https://memopine.herokuapp.com/zoom/authorize",
+		"deAuthenticateUrl": "https://stackoverflow.com/questions/31749625/make-a-link-from-electron-open-in-browser"
+	},
+	{
+		"authenticated": false,
+		"serviceName": "googleWorkspace",
+		"helperText": "Find more about this integration at <link/to/docs/zoom>",
+		"authenticateUrl": "https://memopine.herokuapp.com/google/authorize",
+		"deAuthenticateUrl": "https://stackoverflow.com/questions/31749625/make-a-link-from-electron-open-in-browser"
+	},
+	{
+		"authenticated": false,
+		"serviceName": "jira",
+		"helperText": "Find more about this integration at <link/to/docs/jira>",
+		"authenticateUrl": "https://memopine.herokuapp.com/jira/authorize",
+		"deAuthenticateUrl": "https://stackoverflow.com/questions/31749625/make-a-link-from-electron-open-in-browser"
+	},
+	{
+		"authenticated": false,
+		"serviceName": "github",
+		"helperText": "Find more about this integration at <link/to/docs/github>",
+		"authenticateUrl": "https://memopine.herokuapp.com/github/authorize",
+		"deAuthenticateUrl": "https://stackoverflow.com/questions/31749625/make-a-link-from-electron-open-in-browser"
+	},
+	{
+		"authenticated": false,
+		"serviceName": "figma",
+		"helperText": "Find more about this integration at <link/to/docs/figma>",
+		"authenticateUrl": "https://memopine.herokuapp.com/figma/authorize",
+		"deAuthenticateUrl": "https://stackoverflow.com/questions/31749625/make-a-link-from-electron-open-in-browser"
+	}
+]

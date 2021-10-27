@@ -1,0 +1,39 @@
+{
+	"name": "ZoomMeetings",
+	"columns": {
+		"id": {
+			"primary": true,
+			"type": "int"
+		},
+		"uuid": {
+			"type": "text"
+		},
+		"host_id": {
+			"type": "text"
+		},
+		"topic": {
+			"type": "text"
+		},
+		"type": {
+			"type": "int"
+		},
+		"start_time": {
+			"type": "text"
+		},
+		"duration": {
+			"type": "int"
+		},
+		"timezone": {
+			"type": "text"
+		},
+		"agenda": {
+			"type": "text"
+		},
+		"created_at": {
+			"type": "text"
+		},
+		"join_url": {
+			"type": "text"
+		}
+	}
+}

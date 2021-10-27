@@ -1,0 +1,5 @@
+.mp-result-hits{
+    max-height: 400px;
+    transition: all 0.3s;
+    overflow-y: scroll;
+}

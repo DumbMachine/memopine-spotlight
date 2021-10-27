@@ -1,0 +1,62 @@
+.mp-setting {
+	display: flex;
+	height: 535px;
+	background-color: var(--clr-background);
+	border-radius: var(--var-radius);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
+		0 5px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mp-setting-container {
+	flex-grow: 1;
+	overflow-y: auto;
+	position: relative;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.mp-back-btn {
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	width: fit-content;
+	display: flex;
+	justify-content: space-between;
+	color: var(--clr-offwhite);
+	cursor: pointer;
+}
+.mp-setting-title {
+	padding: 0rem 1em;
+	font-size: 2rem;
+	color: black;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+}
+.mp-setting-section {
+	height: fit-content;
+	padding: 0rem 2rem;
+}
+.mp-setting-section-title {
+	font-size: 1.3rem;
+	display: flex;
+	gap: 0.5rem;
+	color: black;
+}
+.mp-setting-section-options {
+	height: fit-content;
+	padding-top: 1rem;
+	color: var(--clr-offwhite);
+}
+.mp-setting-option {
+	height: 40px;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0rem;
+	gap: 1rem;
+	cursor: pointer;
+}
+.mp-setting-option span {
+	font-size: 1.3rem;
+}

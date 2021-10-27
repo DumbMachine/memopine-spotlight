@@ -1,0 +1,175 @@
+.mp-btn {
+	display: flex;
+	font-size: inherit;
+	font-style: normal;
+	font-family: inherit;
+	font-weight: 500;
+	border-width: 0px;
+	border-radius: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	height: 2.28571em;
+	font-size: 1rem;
+	line-height: 2.28571em;
+	padding: 0px 10px;
+	justify-content: center;
+	align-items: center;
+	min-width: 150px;
+}
+.mp-btn-primary {
+	background: #0052cc;
+	transition: background 0.1s ease-out 0s,
+		box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+	color: #ffffff !important;
+}
+.mp-btn-subtle {
+	padding: 0;
+	height: fit-content;
+	line-height: normal;
+	background: none;
+	transition: background 0.1s ease-out 0s,
+		box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+	color: #d6d6d6 !important;
+}
+.mp-btn-link {
+	background: none;
+	transition: background 0.1s ease-out 0s,
+		box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+	color: #0052cc !important;
+}
+.mp-btn-subtle-link {
+	background: none;
+	transition: background 0.1s ease-out 0s,
+		box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+	color: #6b778c !important;
+}
+.mp-btn-warning {
+	background: #ffab00;
+	transition: background 0.1s ease-out 0s,
+		box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+	color: #172b4d !important;
+}
+.mp-btn-danger {
+	background: #de350b;
+	transition: background 0.1s ease-out 0s,
+		box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+	color: #ffffff !important;
+}
+
+/* toggle button */
+.mp-btn-toggle {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 24px;
+}
+.mp-btn-toggle input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.mp-btn-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: var(--clr-offwhite);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+.mp-btn-slider:before {
+	position: absolute;
+	content: '';
+	height: 18px;
+	width: 18px;
+	left: 3px;
+	bottom: 3px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+.mp-btn-toggle input:checked + .mp-btn-slider {
+	background-color: var(--clr-secondary);
+}
+.mp-btn-toggle input:checked + .mp-btn-slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded mp-btn-sliders */
+.mp-btn-slider.mp-btn-round {
+	border-radius: 24px;
+}
+
+.mp-btn-slider.mp-btn-round:before {
+	border-radius: 50%;
+}
+
+/* Check button */
+.mp-btn-check {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.mp-btn-check input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.mp-btn-checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 24px;
+	width: 24px;
+	background-color: #eee;
+}
+
+.mp-btn-check:hover input ~ .mp-btn-checkmark {
+	background-color: #ccc;
+}
+
+.mp-btn-check input:checked ~ .mp-btn-checkmark {
+	background-color: #2196f3;
+}
+.mp-btn-checkmark:after {
+	content: '';
+	position: absolute;
+	display: none;
+}
+.mp-btn-check input:checked ~ .mp-btn-checkmark:after {
+	display: block;
+}
+.mp-btn-check .mp-btn-checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* Icon button */
+.mp-btn-icon {
+	min-width: fit-content;
+}
+.mp-btn-icon:hover {
+	background-color: rgb(22, 22, 22);
+	border-radius: 6px;
+}

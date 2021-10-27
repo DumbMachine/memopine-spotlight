@@ -1,0 +1,25 @@
+{
+	"name": "Searchable",
+	"columns": {
+		"id": {
+			"primary": true,
+			"type": "int",
+			"generated": true
+		},
+		"titleText": {
+			"type": "text"
+		},
+		"contentText": {
+			"type": "text"
+		},
+		"targetUrl": {
+			"type": "text"
+		},
+		"mimeType": {
+			"type": "text"
+		},
+		"serviceName": {
+			"type": "text"
+		}
+	}
+}

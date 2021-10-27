@@ -1,0 +1,8 @@
+.memopine {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+  padding: 20px;
+}

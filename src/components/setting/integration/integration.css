@@ -1,0 +1,68 @@
+.mp-setting-integration-section .option {
+	height: 50px;
+	padding: 1rem 0rem;
+}
+.button {
+	padding: 0rem 10px;
+	background-color: transparent;
+	border: solid 1px rgb(22, 22, 22);
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	height: 2.28571em;
+}
+.button-red {
+	color: rgb(255, 59, 59);
+	border-color: rgb(255, 59, 59);
+}
+.button-green {
+	color: rgb(0, 255, 0);
+	border-color: rgb(0, 255, 0);
+}
+.button-yellow {
+	color: rgb(255, 255, 0);
+	border-color: rgb(255, 255, 0);
+}	
+.dropbtn {
+	background-color: #4caf50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: var(--clr-primary);
+	min-width: 100px;
+	z-index: 1;
+	border-radius: 6px;
+	overflow: hidden;
+	right: 0;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.24),
+	0 5px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dropdown-content a {
+	text-decoration: none;
+	color: var(--clr-secondary);
+	display: block;
+	font-size: 1.3rem;
+	padding: 0.5rem 1rem;
+}
+
+.dropdown-content a:hover {
+	background-color: var(--clr-secondary);
+	color: white;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
